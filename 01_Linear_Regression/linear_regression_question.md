@@ -14,3 +14,5 @@ Columns:
       Coefficient: [-203.50877193]
       
       Predicted Stock Index Price: [2154.57894737]
+
+      ![Linear Regression Output](output.png)
