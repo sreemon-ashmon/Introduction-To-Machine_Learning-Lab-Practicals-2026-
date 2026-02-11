@@ -1,6 +1,8 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
 
 file_path = "position_salaries.csv"
 df = pd.read_csv(file_path)
@@ -8,26 +10,20 @@ df = pd.read_csv(file_path)
 X = df.iloc[:, 1:2].values
 y = df.iloc[:, 2].values
 
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=0)
+degree = 4
+poly = PolynomialFeatures(degree=degree)
+X_poly = poly.fit_transform(X)
 
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import PolynomialFeatures
+model = LinearRegression()
+model.fit(X_poly, y)
 
-poly_reg = PolynomialFeatures(degree=4)
-X_poly = poly_reg.fit_transform(X)
+print("Intercept:", model.intercept_)
+print("Coefficients:", model.coef_)
 
-pol_reg = LinearRegression()
-pol_reg.fit(X_poly, y)
-
-def viz_polynomial():
-    plt.scatter(X, y, color='red')
-    plt.plot(X, pol_reg.predict(poly_reg.fit_transform(X)), color='blue')
-    plt.title('Polynomial Regression')
-    plt.xlabel('Years of Experience')
-    plt.ylabel('Salary')
-    plt.show()
-    return
-
-viz_polynomial()
+plt.scatter(X, y)
+plt.plot(X, model.predict(X_poly))
+plt.title("Polynomial Regression (Degree 4)")
+plt.xlabel("Years of Experience")
+plt.ylabel("Salary")
+plt.grid(True)
+plt.show()
