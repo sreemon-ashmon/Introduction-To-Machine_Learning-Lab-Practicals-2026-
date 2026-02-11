@@ -45,3 +45,5 @@ Target Classes:
         accuracy                           1.00        45
        macro avg       1.00      1.00      1.00        45
     weighted avg       1.00      1.00      1.00        45
+
+![](svm_output.png)
