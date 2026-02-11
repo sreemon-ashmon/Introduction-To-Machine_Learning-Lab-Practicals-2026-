@@ -44,3 +44,5 @@ Where:
         accuracy                           0.71       231
        macro avg       0.69      0.62      0.62       231
     weighted avg       0.70      0.71      0.68       231
+
+![](ID3_output.png)
