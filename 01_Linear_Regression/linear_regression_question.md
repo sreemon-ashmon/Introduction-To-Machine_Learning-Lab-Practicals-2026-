@@ -1,6 +1,6 @@
 # Program 01: Linear Regression
 
-Implement Linear Regression to predict Stock Index Price based on Interest Rate.
+Question 1 : Implement Linear Regression to predict Stock Index Price based on Interest Rate.
 
 ## Dataset
 File: stock.csv  
