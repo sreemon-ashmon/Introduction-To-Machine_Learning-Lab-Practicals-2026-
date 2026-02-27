@@ -1,3 +1,5 @@
+# Q: Implement a Decision Tree classifier using the ID3 algorithm to predict whether a person has diabetes.
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier
