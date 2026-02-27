@@ -1,3 +1,5 @@
+# Q: Implement Linear Regression to predict Stock Index Price based on Interest Rate.
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn import linear_model
