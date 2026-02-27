@@ -1,3 +1,5 @@
+# Q: Implement K-Nearest Neighbors (KNN) algorithm to predict whether a person has diabetes based on medical attributes.
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
