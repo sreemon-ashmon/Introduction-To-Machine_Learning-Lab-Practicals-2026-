@@ -1,31 +1,3 @@
-# Program 08: Random Forest Classification (Iris Dataset)
-
-## Question 8
-Implement Random Forest Classification to predict the species of an Iris flower.
-
----
-
-## 📂 Dataset
-
-File: 'iris.csv'
-
-Columns:
-
-1. sepal-length  
-2. sepal-width  
-3. petal-length  
-4. petal-width  
-5. class  
-
-Target Classes:
-- setosa  
-- versicolor  
-- virginica
-
-## No need to Draw , Just to see
-
-![](Random_forest_graph.png)
-
 ## Output
     Accuracy: 97.77777777777777
     
