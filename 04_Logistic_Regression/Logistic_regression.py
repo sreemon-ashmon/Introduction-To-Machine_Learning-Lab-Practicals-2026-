@@ -1,3 +1,7 @@
+# Q: Implement Logistic Regression to predict whether a candidate will be admitted based on:
+# - GMAT Score
+# - GPA
+# - Work Experience
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sn
