@@ -1,3 +1,9 @@
+# Q: Implement Naive Bayes Classification to predict whether a person will buy a computer based on:
+        # - Age
+        # - Income
+        # - Student Status
+        # - Credit Rating
+
 age = [
     'youth','youth','middle-aged','senior','senior','senior',
     'middle-aged','youth','youth','senior','youth',
