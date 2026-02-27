@@ -1,24 +1,3 @@
-# Program 04: Logistic Regression
-
-## Question 4
-Implement Logistic Regression to predict whether a candidate will be admitted based on:
-
-- GMAT Score
-- GPA
-- Work Experience
-
-
-## 📂 Dataset
-
-File: 'candidates.csv'
-
-Columns:
-
-- gmat
-- gpa
-- work_experience
-- admitted
-
 ## output
     Confusion Matrix:
     
@@ -29,4 +8,4 @@ Columns:
     0            2    1
     
     1            0    2
-![](Logistic_regression_heatmap.png)
+![](img3.png)
