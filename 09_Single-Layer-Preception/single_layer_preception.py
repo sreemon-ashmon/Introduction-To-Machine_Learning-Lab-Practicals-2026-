@@ -1,3 +1,4 @@
+# Q: Implement the Perceptron algorithm to model the AND logic gate.
 import numpy as np
 from sklearn.linear_model import Perceptron
 
