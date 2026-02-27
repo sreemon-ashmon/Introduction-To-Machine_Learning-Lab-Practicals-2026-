@@ -1,28 +1,3 @@
-# Program 10: Support Vector Machine (SVM) – Linear Kernel
-
-## Question 10
-Implement Support Vector Machine (SVM) using a Linear Kernel to classify Iris flower species.
-
----
-
-## 📂 Dataset
-
-File: `iris.csv`
-
-Columns:
-
-1. sepal-length  
-2. sepal-width  
-3. petal-length  
-4. petal-width  
-5. class  
-
-Target Classes:
-
-- setosa  
-- versicolor  
-- virginica  
-
 ## Output
     Predicted Values:
     ['setosa' 'versicolor' 'versicolor' 'setosa' 'virginica' 'versicolor'
@@ -46,4 +21,4 @@ Target Classes:
        macro avg       1.00      1.00      1.00        45
     weighted avg       1.00      1.00      1.00        45
 
-![](svm_output.png)
+![](img6.png)
