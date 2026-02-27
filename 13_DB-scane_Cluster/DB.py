@@ -1,3 +1,5 @@
+# Q: Implement DBSCAN (Density-Based Spatial Clustering of Applications with Noise) and evaluate clustering performance.
+
 import numpy as np
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import silhouette_score
