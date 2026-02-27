@@ -1,3 +1,5 @@
+# Q: Implement Support Vector Machine (SVM) using a Linear Kernel to classify Iris flower species.
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
