@@ -1,3 +1,5 @@
+# Q: Implement K-Means Clustering to group 2D data points into clusters.
+
 from pandas import DataFrame
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
