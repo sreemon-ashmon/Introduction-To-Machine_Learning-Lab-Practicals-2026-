@@ -1,3 +1,4 @@
+## Q:Implement Multiple Linear Regression to predict Stock Index Price:
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn import linear_model
